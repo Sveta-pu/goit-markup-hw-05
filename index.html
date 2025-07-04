@@ -68,7 +68,7 @@
       <section class="hero-section baner">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open >Order Service</button>
         </div>
       </section>
       <!-- рішення для вашого бізнесу -->
@@ -481,10 +481,10 @@
           </ul>
         </div>
       </div>
-      <div>
+      <div class="footer-form-container">
+          <p class="footer-form-title">Subscribe</p>
         <form class="footer-form">
           <label for="email">
-            <p class="footer-form-title">Subscribe</p>
             <input
               class="footer-form-input"
               type="email"
@@ -503,8 +503,14 @@
     </footer>
 
 <div class="backdrop is-open">
-  <div class="modal"></div>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
 </div>
-
+<script src="./js/modal.js"></script>
   </body>
 </html>

@@ -571,6 +571,10 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-form-container {
+  margin-left: auto;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
