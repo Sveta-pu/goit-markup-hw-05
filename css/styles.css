@@ -550,6 +550,17 @@ img {
   display: flex;
   flex-direction: column;
 }
+.footer-form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-email-svg {
+  margin-left: 16px;
+}
 
 .social-link {
   width: 100%;
@@ -570,6 +581,23 @@ img {
 
 .footer-icon-svg {
   fill: #f4f4fd;
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-form-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-form-title {
