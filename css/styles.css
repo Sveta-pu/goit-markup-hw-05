@@ -706,11 +706,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
+
 .modal-form-label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -724,8 +725,11 @@ img {
   border-radius: 4px;
   padding-left: 38px;
   outline: none;
+  outline: transparent;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
@@ -759,4 +763,10 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
 }
