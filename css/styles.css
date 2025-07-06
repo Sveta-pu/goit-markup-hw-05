@@ -733,6 +733,11 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-input:focus,
+.modal-form-input:hover {
+  border-color: #4d5ae5;
+}
+
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
@@ -754,6 +759,7 @@ img {
 }
 
 .modal-form-icon {
+  color: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -761,7 +767,7 @@ img {
   bottom: 1px;
   height: 24px;
   pointer-events: none;
-  fill: rgba(46, 47, 66, 0.4);
+  /* fill: rgba(46, 47, 66, 0.4); */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
