@@ -787,6 +787,7 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-checkbox-box {
@@ -794,6 +795,7 @@ img {
   flex-direction: row;
   padding-left: 24px;
   gap: 8px;
+  margin-bottom: 24px;
 }
 
 .modal-form-checkbox-link {
@@ -850,5 +852,5 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
-.modal-form-checkbox-icon-checked
