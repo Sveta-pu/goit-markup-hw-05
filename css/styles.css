@@ -746,12 +746,16 @@ img {
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
-.modal-form-btn-container {
+/* .modal-form-btn-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .modal-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   display: block;
   width: 169px;
   height: 56px;
