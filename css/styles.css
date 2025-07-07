@@ -705,7 +705,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-  margin-top: 72px;
+  margin-top: 24px;
 }
 
 .modal-form-label {
@@ -878,5 +878,4 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   cursor: pointer;
-  gap: 8px;
 }
