@@ -746,10 +746,6 @@ img {
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
-/* .modal-form-btn-container {
-  display: flex;
-  justify-content: center;
-} */
 
 .modal-form-btn {
   display: flex;
@@ -757,7 +753,7 @@ img {
   align-items: center;
   margin: 0 auto;
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -882,6 +878,5 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   cursor: pointer;
-}
-.input-checkbox-modal {
+  gap: 8px;
 }
