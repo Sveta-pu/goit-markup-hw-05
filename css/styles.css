@@ -746,10 +746,14 @@ img {
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
+.modal-form-btn-container {
+  display: flex;
+  justify-content: center;
+}
 
 .modal-form-btn {
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
