@@ -664,11 +664,11 @@ img {
   fill: #fff;
 }
 
-.modal-close-btn:hover,
+/* .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-}
+} */
 
 .modal {
   position: absolute;
